@@ -10,7 +10,7 @@ Feature: Test cases for Product Search on Target
     When Search for coffee
     Then Verify search results for coffee shown
 
-  Scenario: User can search for a product "coffee" on Target
+  Scenario: User can search for a product "butter" on Target
     Given Open Target main page
     When Search for butter
     Then Verify search results for butter shown
